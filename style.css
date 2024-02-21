@@ -1,0 +1,166 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.navbar{
+    position: sticky;
+    top: 0%;
+    height: 70px;
+    width: 100%;
+    background-color: rgb(32, 21, 21);
+    font-weight: 600;
+}
+
+
+.left{
+    justify-content: center;
+    padding-top: 25px;
+    margin-left: 25px;
+    font-size: large;
+    color: rgb(78, 110, 236);
+}
+
+ul{
+    display: flex;
+    gap: 20px;
+    justify-content: right;
+    margin-right: 80px;
+}
+li{
+    list-style: none;
+    margin-top: -15px;
+}
+li a{
+    text-decoration: none;
+    color: rgb(168, 239, 169);
+
+}
+li a:hover{
+    color: brown;
+}
+.main{
+   
+    background-color: rgb(43, 42, 42);
+    display: flex;
+    gap:300px;
+}
+.main-left{
+    height: 500px;
+    width: 450px;
+    margin-top: 100px;
+    margin-left: 150px;
+    color: rgb(229, 234, 102);
+}
+.main-right{
+    height: 500px;
+    width: 450px;
+    margin-top: 100px;
+}
+.main-right img{
+    height: 450px;
+    width: 400px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+p{
+    margin-top: 15px;
+}
+.btn{
+    display: flex;
+    margin-top: 25px;
+    gap: 10px;
+    
+}
+.git-btn{
+    height: 50px;
+    width: 100px;
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: black;
+    color: white;
+}
+.resume{
+    height: 50px;
+    width: 100px;
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: black;
+    color: white;
+    font-size: large;
+}
+.git-btn a{
+    text-decoration: none;
+    color: white;
+    font-size: large;
+}
+.resume a{
+    text-decoration: none;
+    color: white;
+    font-size: large;
+}
+.last-footer{
+    margin-top:-20px;
+    height: 70px;
+    width: 100%;
+    background-color: rgb(109, 64, 64);
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.para-l{
+    color: rgb(213, 248, 190);
+    margin-left: 50%;
+    font-size: large;
+    font-weight: 600;
+    margin-top: 15px;
+    padding-top: 22px;
+}
+.container{
+    height:600px;
+    width: 100%;
+    background-color: rgb(43, 42, 42);;
+}
+h1{
+    color: bisque;
+   padding-top: 15px;
+}
+.c-para{
+    color: beige;
+    width: 80%;
+    margin-left: 170px;
+}
+h2{
+    color: rgb(245, 169, 77);
+   padding-top: 15px;
+}
+.techno p{
+    color: rgb(125, 224, 92);
+    margin-left: 250px;
+    font-size: large;
+    font-weight: 500;
+}
+.projects-desc p{
+    color: rgb(55, 223, 86);
+}
+.projects-desc h3{
+    color: blue;
+}
+.contactform{
+    height:600px;
+    width: 100%;
+    background-color: rgb(43, 42, 42);;
+}
+.name{
+    color: chartreuse;
+    font-size: large;
+    font-weight: 500;
+    padding: 20px;
+}
+.btn-c{
+    background-color: black;
+    color: white;
+    padding: 5px;
+    border-radius: 2px;
+}
